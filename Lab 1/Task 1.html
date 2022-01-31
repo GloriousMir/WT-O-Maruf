@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Donation</title>
+</head>
+<body>
+<form action="/action_page.php">
+<div align="left">
+
+<span class="required" style="color:red"> * </span> - Donates Required Informatuon </br>
+<b>> 1 Donation </b> > 2 Confirmation > 3 Thank You! </br></br>
+
+
+<fieldset>
+
+<legend> <b style="color:red">Donor Information</b> </legend>
+
+<div align="center">
+
+<label for="fname"> <b> First Name <span class="required" style="color:red"> * </span> </b> </label>
+<input type="text" id="fname" name="fname" value=""> </br> </br>
+
+<label for="lname"> <b> Last Name <span class="required" style="color:red"> * </span> </b> </label>
+<input type="text" id="lname" name="lname" value=""> </br> </br>
+
+<label for="comp"> <b> Company </b> </label>
+<input type="text" id="comp" name="comp" value=""> </br> </br>
+
+<label for="add1"> <b> Address 1 <span class="required" style="color:red"> * </span> </b> </label>
+<input type="text" id="add1" name="add1" value=""> </br> </br>
+
+<label for="add2"> <b> Address 2 </b> </label>
+<input type="text" id="add2" name="add2" value=""> </br> </br>
+
+<label for="city"> <b> City <span class="required" style="color:red"> * </span> </b> </label>
+<input type="text" id="city" name="city" value=""> </br> </br>
+
+
+<label for="state"> <b> State <span class="required" style="color:red"> * </span> </b> </label>
+<select id="state" name="state" size="1" multiple>
+<option value="Select" selected> Select a State </option>
+<option value="Dhaka"> Dhaka </option>
+<option value="Cumilla"> Dhaka </option>
+<option value="Barisal"> Barisal </option>
+</select></br> </br>
+
+
+<label for="zipC"> <b> Zip Code <span class="required" style="color:red"> * </span> </b> </label>
+<input type="text" id="zipC" name="zipC" value=""> </br> </br>
+
+<label for="country"> <b> Country <span class="required" style="color:red"> * </span> </b> </label>
+<select id="country" name="country" size="1" multiple>
+<option value="Select" selected> Select a State </option>
+<option value="Bangladesh"> Bangladesh </option>
+<option value="India"> India </option>
+<option value="Japan"> Japan </option>
+</select></br> </br>
+
+<label for="phone"> <b> Phone </b> </label>
+<input type="text" id="phone" name="phone" value=""> </br> </br>
+
+<label for="fax"> <b> Fax </b> </label>
+<input type="text" id="fax" name="fax" value=""> </br> </br>
+
+<label for="email"> <b> Email <span class="required" style="color:red"> * </span> </b> </label>
+<input type="text" id="email" name="email" value=""> </br> </br>
+
+<b> Donation Amount <span class="required" style="color:red"> * </span> </b>
+<input type="radio" id="None" name="don_amnt" value="">
+<label for="None">None</label>
+<input type="radio" id="50" name="don_amnt" value="">
+<label for="50">$50</label>
+<input type="radio" id="75" name="don_amnt" value="">
+<label for="75">$75</label>
+<input type="radio" id="100" name="don_amnt" value="">
+<label for="100">$100</label>
+<input type="radio" id="250" name="don_amnt" value="">
+<label for="250">$250</label>
+<input type="radio" id="Other" name="don_amnt" value="">
+<label for="Other">Other</label> </br>
+<P> (Check a button or type in your amount) </P>
+
+<label for="other_amnt"> <b> Other Amount </span> </b> $ </label>
+<input type="text" id="other_amnt" name="other_amnt" value=""> </br> </br>
+
+<b>Recurring Donation</b>
+<form action="/action_page.php">
+<input type="checkbox" id="rd" name="rd" value="">
+<label for="rd"> I am intersted in giving on a regular basis. </label>
+<P> (Check if yes) </P> </br>
+
+
+<label for="for"> Monthly Credit Card $ </b> </label>
+<input type="text" id="for" size=5 maxlength=5 name="for" value="">
+<label for="months"> For </b> </label>
+<input type="text" id="months" size=5 maxlength=5 name="months" value="">
+Months </br> </br>
+
+</fieldset> </br>
+
+</div>
+
+<fieldset>
+  
+<legend> <b style="color:red">Honorarium and Memorial Donation Information</b> </legend>
+
+<div align="center">
+
+<b> I would like to make this donation </b>
+<input type="radio" id="honor" name="hon_mem" value="honor">
+<label for="honor"> To Honor </label>
+<input type="radio" id="memory" name="hon_mem" value="memory">
+<label for="memory"> in Memory of </label> </br> </br>
+
+<label for="name"> <b> Name </b> </label>
+<input type="text" id="name" name="name" value=""> </br> </br>
+
+<label for="ack"> <b> Acknowledge Donation to </b> </label>
+<input type="text" id="ack" name="ack" value=""> </br> </br>
+
+<label for="add3"> <b> Address </b> </label>
+<input type="text" id="add3" name="add3" value=""> </br> </br>
+
+<label for="city1"> <b> City </b> </label>
+<input type="text" id="city1" name="city1" value=""> </br> </br>
+
+
+<label for="country1"> <b> Country <span class="required" style="color:white"> * </span> </b> </label>
+<select id="country1" name="country1" size="1" multiple>
+<option value="Select" selected> Select a State </option>
+<option value="Bangladesh"> Bangladesh </option>
+<option value="India"> India </option>
+<option value="Japan"> Japan </option>
+</select></br> </br>
+
+
+<label for="zip"> <b> Zip </b> </label>
+<input type="text" id="zip" name="zip" value=""> </br> </br>
+
+</div>
+
+</fieldset> </br>
+
+
+
+<fieldset>
+
+<legend> <b style="color:red">Additional Information</b> </legend>
+
+<p> Please enter your name, company or organization as you would like it to appear in our publications: </p>
+
+<div align="center">
+
+<label for="name1"> <b> Name </b> </label>
+<input type="text" id="name1" name="name1" value=""> </br> </br>
+
+</div>
+
+<input type="checkbox" id="x" name="x" value="">
+<label for="x"> I would like my gift to remain anonymous. </label> </br>
+<input type="checkbox" id="y" name="y" value="">
+<label for="y"> My employer offers a matching gift program. I will mail the matching gift form. </label> </br>
+<input type="checkbox" id="z" name="z" value="">
+<label for="z"> Please save the cost of acknowledging this gift by not mailing a thank you letter. </label> </br> </br>
+
+<div align="center">
+
+<label for="com"> <b> Comments </b> </label>
+<textarea name="com" id="com" name="com" cols=30 rows=4></textarea>
+<p> (Please type any question or feedback here) </p> </br>
+
+
+<b> How may we contact you? </b> </br>
+
+<input type="checkbox" id="e" name="e" value="">
+<label for="e"> E-mail </label> </br>
+<input type="checkbox" id="p" name="p" value="">
+<label for="p"> postal Mail </label> </br>
+<input type="checkbox" id="t" name="t" value="">
+<label for="t"> Telephone </label> </br>
+<input type="checkbox" id="f" name="f" value="">
+<label for="f"> Fax </label> </br>
+
+</div>
+
+<p> I would like to receive newsletters and information about special events by: </p>
+
+<div align="center">
+
+
+<input type="checkbox" id="e1" name="e1" value="">
+<label for="e1"> E-mail </label> </br>
+<input type="checkbox" id="p1" name="p1" value="">
+<label for="p1"> postal Mail </label> </br>
+
+</div>
+
+<input type="checkbox" id="final" name="final" value="">
+<label for="final"> I would like information about volunteering. </label>
+
+
+<hr>
+
+<div align="center">
+
+<input type="Reset">
+<input type=submit value="Continue"> </br> </br>
+
+</div>
+
+Donate online with confidence. You are on a secure server. </br>
+If you have any problems or questions, please contact support.
+
+</fieldset>
+</form>
+</body>
+</html>
